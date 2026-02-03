@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OLED Privacy Screen</string>
+    <string name="service_description">Provides touch blocking and privacy overlay functionality</string>
+</resources>

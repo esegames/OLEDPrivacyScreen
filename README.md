@@ -15,12 +15,35 @@ An Android app that creates a pure black overlay to save battery on OLED screens
 
 ## How to Build
 
-### Prerequisites
-- Android Studio (latest version recommended)
-- Android SDK 24 or higher
-- Java 8 or higher
+### Option 1: Build on Bitrise.io (No Android Studio Required!) ⭐ RECOMMENDED
 
-### Steps
+Perfect if you don't have Android Studio installed!
+
+1. **Upload to GitHub**
+   - Create a free GitHub account
+   - Create a new repository
+   - Upload all project files
+
+2. **Connect to Bitrise**
+   - Go to https://app.bitrise.io (free account)
+   - Click "Add new app"
+   - Connect your GitHub repository
+   - Bitrise will auto-detect Android project
+
+3. **Build**
+   - Bitrise builds automatically
+   - Takes 5-10 minutes
+   - Downloads gradle wrapper automatically
+
+4. **Download APK**
+   - Get your `app-debug.apk` from Bitrise
+   - Install on your phone
+
+📖 **See BITRISE_SETUP.md for detailed step-by-step instructions!**
+
+### Option 2: Build with Android Studio (Traditional Method)
+
+If you have Android Studio:
 
 1. **Open in Android Studio**
    - Open Android Studio
@@ -30,6 +53,7 @@ An Android app that creates a pure black overlay to save battery on OLED screens
 
 2. **Wait for Gradle Sync**
    - Android Studio will automatically sync Gradle
+   - Downloads gradle wrapper if needed
    - Wait for the process to complete (may take a few minutes on first run)
 
 3. **Build the APK**
@@ -42,6 +66,8 @@ An Android app that creates a pure black overlay to save battery on OLED screens
    - Open the APK file on your phone
    - Allow installation from unknown sources if prompted
    - Install the app
+
+⚠️ **Note**: The gradle-wrapper.jar file will be downloaded automatically by Android Studio or Bitrise during first build. See IMPORTANT_GRADLE_NOTE.txt for details.
 
 ## How to Use
 

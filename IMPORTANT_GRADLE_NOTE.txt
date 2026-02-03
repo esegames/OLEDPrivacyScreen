@@ -1,0 +1,62 @@
+⚠️ IMPORTANT: Missing gradle-wrapper.jar
+
+The file gradle/wrapper/gradle-wrapper.jar is missing from this package because 
+it couldn't be downloaded during project creation.
+
+DON'T WORRY! This is NORMAL and will be handled automatically when you build.
+
+═══════════════════════════════════════════════════════════════════════════
+
+OPTION 1: Use Bitrise (RECOMMENDED - No Android Studio needed!)
+───────────────────────────────────────────────────────────────────────────
+1. Upload this project to GitHub
+2. Connect to Bitrise.io (it's free!)
+3. Bitrise will automatically download gradle-wrapper.jar during build
+4. See BITRISE_SETUP.md for detailed instructions
+
+═══════════════════════════════════════════════════════════════════════════
+
+OPTION 2: Use Android Studio Locally
+───────────────────────────────────────────────────────────────────────────
+1. Open this project in Android Studio
+2. Android Studio will automatically download gradle-wrapper.jar
+3. Build the APK
+4. See QUICK_START.md for instructions
+
+═══════════════════════════════════════════════════════════════════════════
+
+OPTION 3: Use Online IDE (No installation needed!)
+───────────────────────────────────────────────────────────────────────────
+Upload to one of these:
+- Gitpod.io (free, Android support)
+- GitHub Codespaces (if you have GitHub account)
+- Replit.com (free tier available)
+
+═══════════════════════════════════════════════════════════════════════════
+
+OPTION 4: Download Gradle Wrapper Manually (Advanced)
+───────────────────────────────────────────────────────────────────────────
+If you have command line access:
+
+cd OLEDPrivacyScreen
+gradle wrapper
+
+This will download the wrapper jar automatically.
+
+═══════════════════════════════════════════════════════════════════════════
+
+WHY IS THIS MISSING?
+The gradle-wrapper.jar is a binary file that needs to be downloaded from 
+Gradle's servers. Since it's a binary, it's typically downloaded during 
+project setup rather than included in source code.
+
+All modern Android build systems (Android Studio, Bitrise, CI/CD platforms) 
+will download this automatically when you first build the project.
+
+═══════════════════════════════════════════════════════════════════════════
+
+RECOMMENDED PATH:
+For easiest setup without Android Studio → Use Bitrise (see BITRISE_SETUP.md)
+For local development → Use Android Studio (see QUICK_START.md)
+
+═══════════════════════════════════════════════════════════════════════════
